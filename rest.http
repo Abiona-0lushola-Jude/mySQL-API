@@ -1,0 +1,30 @@
+GET  http://localhost:9000/developer
+
+
+###
+POST  http://localhost:9000/developer
+Content-Type: application/json
+
+{
+     "name": "Ishola",
+    "stack": "full stack",
+    "level": "junior",
+    "yearOfExperience": 1
+}
+
+###
+DELETE http://localhost:9000/developer/103
+
+
+###
+PUT  http://localhost:9000/developer/104
+Content-Type: application/json
+
+{
+     "name": "foluke",
+    "stack": "frontend",
+    "level": "junior",
+    "yearOfExperience": 0
+}
+
+###
